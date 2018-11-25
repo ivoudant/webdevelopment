@@ -26,8 +26,8 @@ body {
 }
 
 h1 {
-  margin-top:50px auto 0px auto;
-  font-family: 'Sacramento' cursive;
+  margin-top: 50px auto 0px auto;
+  font-family: 'Sacramento'cursive;
   font-size: 500%;
   color: #66BFBF;
   line-height: 2;
@@ -40,12 +40,8 @@ h2 {
   color: #66BFBF;
 }
 
-h2 {
-    color: #11999E;
-}
-
 a {
-    color: #11999E;
+  color: #11999E;
 }
 
 .top-container {
@@ -88,4 +84,15 @@ a {
   position: absolute;
   right: 300px;
   top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-img {
+  width: 20%;
 }
