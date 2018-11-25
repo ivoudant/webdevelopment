@@ -95,4 +95,10 @@ a {
 
 .code-img {
   width: 20%;
+  float:left;
+  margin-right:30px;
+}
+
+.clear-float {
+  clear:both;
 }
