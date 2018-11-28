@@ -1,12 +1,14 @@
-.construction {
-  /*
-  position: relative;
-  top:300px;
-  left:300px;
-  */
-  margin-top:300px;
+#title {
+  background-color: #ff4c68;
 }
 
-body {
-  text-align:center;
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+
 }
