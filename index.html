@@ -3,14 +3,336 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <title>The Complete Bootstrap Masterclass Course</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  <div class="construction">
-    <img src="construction.gif" />
+
+  <!-- CONTAINER -->
+  <div class=container>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron">
+      <h1>Hello </h1>
+      <h1>Iam Giannis B</h1>
+    </div>
+
+    <!-- GRID SYSTEM -->
+    <div class="row">
+      <div class="col-md-6" style="background-color: red;">Hello</div>
+      <div class="col-md-2" style="background-color: green;">Hello</div>
+      <div class="col-md-4" style="background-color: blue;">Hello</div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3" style="background-color: red;">Hello</div>
+      <div class="col-lg-6" style="background-color: green;">Hello</div>
+      <div class="col-lg-3" style="background-color: blue;">Hello</div>
+    </div>
+    <!-- GRID SYSTEM -->
+
+    <!-- TEXT STYLES -->
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Heading</h5>
+    <h6>Heading</h6>
+
+    <p> This is Normal text <small>This is small</small></p>
+
+    <blockquote class="blockquote">
+      <p>The BlockQuote Area</p>
+    </blockquote>
+
+    <p>Hi <abbr title="Γιαννης Myers">GV</abbr> to all</p>
+
+    <mark>This is a mark</mark>
+
+    <dl>
+      <dt>
+        HTML
+      </dt>
+      <dd>
+        Hypertext Markup Language
+      </dd>
+      <dt>
+        CSS
+      </dt>
+      <dd>
+        Cascading Style Sheet
+      </dd>
+    </dl>
+
+    <pre>
+
+      To    κειμενο   εμφανιζεται
+        ως εχει μεσα στο pre
+
+        π ο λ υ     κ α λ ο
+
+    </pre>
+
+    <p class="text-success bg-warning">This is a paragraph</p>
+    <p class="text-success">This is a paragraph</p>
+    <p class="text-danger">This is a paragraph</p>
+    <p class="text-info">This is a paragraph</p>
+    <p class="text-primary">This is a paragraph</p>
+    <p class="text-muted">This is a paragraph</p>
+    <p class="text-warning">This is a paragraph</p>
+    <p class="bg-info">This is a paragraph</p>
+    <p class="bg-success">This is a paragraph</p>
+
+    <p class="lead">This is a paragraph</p>
+    <p class="small">This is a paragraph</p>
+    <p class="text-right">This is a paragraph to the right</p>
+    <p class="text-center">This is a paragraph centered</p>
+    <p class="text-uppercase">This is a paragraph with uppercase</p>
+    <p class="text-lowercase">This is a paragraph with lowercase</p>
+
+    <!-- TEXT STYLES -->
+
+    <!-- TABLES -->
+
+    <p>Bootstrap TABLE</p>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Bootstrap TABLE striped</p>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Bootstrap TABLE condensed</p>
+
+    <table class="table table-condensed">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Bootstrap TABLE hover</p>
+
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Bootstrap TABLE bordered</p>
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Bootstrap TABLE bordered and hover</p>
+
+    <table class="table table-bordered table-hover">
+      <thead>
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <p>Bootstrap TABLE with colours</p>
+
+    <table class="table table-bordered">
+      <thead class="table-danger">
+        <tr>
+          <td>S.No</td>
+          <td>Name</td>
+          <td>Paid</td>
+          <td>Not Paid</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td class="table-active">Myers</td>
+          <td>1600</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td class="table-warning">Yu</td>
+          <td>1900</td>
+          <td>1200</td>
+        </tr>
+        <tr class="bg-primary">
+          <td>1</td>
+          <td>Mr Smith</td>
+          <td>2600</td>
+          <td>2000</td>
+        </tr>
+      </tbody>
+    </table>
+
   </div>
+
+
+
+  <!-- end CONTAINER -->
+
 </body>
 
 </html>
